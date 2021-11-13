@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400&family=Lobster&display=swap");
+table {
+  background: rgb(224, 247, 218);
+  background: linear-gradient(
+    173deg,
+    rgba(224, 247, 218, 1) 11%,
+    rgba(209, 218, 249, 1) 100%
+  );
+  border: 5px solid black;
+  border-collapse: collapse;
+  width: 1845px;
+  height: 850px;
+  text-align: center;
+}
+th {
+  border: 2px solid black;
+}
+td {
+  border: 2px solid black;
+}
+h1 {
+  text-align: center;
+  color: wheat;
+}
+td:hover {
+  border: 3px dashed rgb(192, 167, 27);
+  background: rgb(211, 249, 213);
+  background: linear-gradient(
+    20deg,
+    rgba(211, 249, 213, 1) 0%,
+    rgba(229, 252, 255, 1) 50%,
+    rgba(213, 222, 255, 1) 100%
+  );
+}
+th:hover {
+  border: 3px dashed tomato;
+  background: rgb(213, 222, 255);
+  background: linear-gradient(
+    20deg,
+    rgba(213, 222, 255, 1) 0%,
+    rgba(229, 252, 255, 1) 50%,
+    rgba(211, 249, 213, 1) 100%
+  );
+}
+body {
+  background-color: grey;
+}

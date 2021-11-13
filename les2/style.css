@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+img {
+    width:  150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 6px solid #c2ffc8;
+}
+body {
+    background-color: #a5f2c4;
+}
+p {
+    color: #0008ff;
+    font-size: 12px;
+}
+a {
+    color: #fbff00;
+    text-decoration: none;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    color: #fa0;
+}
+h1{
+   font-family: 'Birthstone', cursive;
+   color: #00cc07;
+}

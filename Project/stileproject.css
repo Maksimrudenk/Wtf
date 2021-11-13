@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(129, 167, 145);
+}
+* {
+  text-align: center;
+}
+.main {
+  box-shadow: 6px 6px 6px 6px rgb(58, 58, 58);
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(127, 182, 150);
+}
+.imain {
+  height: 100px;
+}
+.head {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.body {
+  height: 85px;
+  width: 210px;
+  background-color: rgb(129, 194, 157);
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 2px rgb(58, 58, 58);
+}
+.body:hover {
+  box-shadow: 2px 2px 2px 2px rgb(97, 126, 116);
+}
+hr {
+  width: 90%;
+}
+h3 {
+  margin: 10px;
+  color: rgb(39, 67, 60);
+}
+h1,
+a,
+p {
+  color: rgb(39, 67, 60);
+}
+a {
+  float: left;
+  margin-left: 20px;
+  padding: 2px 15px;
+  text-decoration: none;
+  background-color: rgb(103, 192, 140);
+  box-shadow: 1px 1px 1px 1px rgb(58, 58, 58);
+}
+a:hover {
+  border: 1px solid black;
+  box-shadow: 0px 0px 0px 0px rgb(58, 58, 58);
+}
+i {
+  float: right;
+  padding: 0 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  color: rgb(11, 21, 65);
+  position: absolute;
+}
+i:hover {
+  animation: star 3s infinite;
+  animation-direction: alternate;
+}
+@keyframes star {
+  0% {
+    position: absolute;
+    transform: rotate(0deg);
+    color: rgb(11, 21, 65);
+  }
+  100% {
+    position: absolute;
+    transform: rotate(180deg);
+    color: rgb(1, 131, 191);
+  }
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header,
+.main {
+  width: 900px;
+  height: 600px;
+  margin: 100px;
+}
+.block {
+  height: 200px;
+  width: 100%;
+  float: right;
+}
+.blue {
+  background-color: rgb(33, 33, 187);
+}
+.red {
+  background-color: rgb(199, 44, 44);
+}
+.green {
+  background-color: rgb(141, 208, 42);
+}
+.yellow {
+  background-color: rgb(213, 213, 50);
+}
+.grey {
+  background-color: rgb(99, 99, 99);
+}
+.black {
+  background-color: black;
+}
+.block-head {
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+.bloc1 {
+  width: 450px;
+  height: 200px;
+  float: left;
+}
+.footer {
+  background-color: rgb(184, 214, 123);
+  height: 200px;
+  width: 960px;
+  margin: 100px;
+}
+.bf {
+  margin: 30px;
+  width: 260px;
+  height: 140px;
+  float: left;
+}
+p {
+  text-align: center;
+  margin: 50px;
+}
+div :hover {
+  background-color: rgb(160, 216, 226);
+}

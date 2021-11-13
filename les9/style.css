@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+/* body {
+  margin: 0 auto;
+} */
+header {
+  height: 770px;
+  background: url(./fotochka.png) no-repeat;
+  width: 100%;
+}
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inheader {
+  display: flex;
+  align-items: center;
+  /* height: 102px; */
+  width: 100%;
+  padding-top: 40px;
+}
+.logo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.logoh {
+  color: white;
+}
+.menu {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.inmenu {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+.header-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.hi {
+  margin-bottom: 20px;
+  color: white;
+}
+h1 {
+  text-transform: uppercase;
+}
+.gs {
+  padding: 16px 57px;
+  border: 2.5px solid white;
+  border-radius: 4px;
+}
+.gs:hover {
+  border: 4px solid white;
+  background-color: rgba(255, 255, 255, 0.166);
+}
+.mc {
+  justify-content: space-around;
+}
+main {
+  height: 569px;
+}
+.inmain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+}
+hr {
+  width: 50px;
+}
+.inmm {
+  margin-bottom: 20px;
+}
+.mainer {
+  justify-content: space-around;
+  display: flex;
+  height: 50%;
+}
+.inmainer {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+i {
+  color: #bf2f1b;
+  /* margin: 4px; */
+}
+.imr {
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  height: 308px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bf2f1b;
+}
+.infoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+.fot {
+  color: white;
+}
+.te {
+  color: white;
+}
