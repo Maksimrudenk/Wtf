@@ -1,0 +1,204 @@
+.b {
+  width: 100px;
+  height: 50px;
+  background-color: gold;
+  border: 2px solid blue;
+}
+.b1 {
+  position: static;
+}
+.b2 {
+  position: fixed;
+  left: 180px;
+  top: 120px;
+}
+.b3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.b4 {
+  position: absolute;
+  left: 120px;
+}
+/* .b5 {
+
+} */
+.box {
+  border: 2px solid green;
+  width: 300px;
+  height: 400px;
+  margin-top: 80px;
+  position: relative;
+}
+.inbox {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  position: sticky;
+  top: 80px;
+  left: 40px;
+}
+body {
+  height: 3000px;
+}
+.boox {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid gainsboro;
+}
+.inboox {
+  width: 50px;
+  height: 20px;
+  border: 2px solid blue;
+}
+.o1 {
+  background-color: wheat;
+  position: absolute;
+  z-index: 1;
+  left: 150px;
+  top: 30px;
+}
+.o2 {
+  background-color: hotpink;
+  position: absolute;
+  left: 180px;
+  top: 40px;
+}
+.jbox {
+  margin: auto;
+  border: 1px solid rgb(65, 65, 65);
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inj {
+  background-color: rgb(133, 18, 18);
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+}
+.inst {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    13deg,
+    rgba(252, 176, 69, 1) 6%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(131, 58, 180, 1) 100%
+  );
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ininst {
+  border: 40px solid white;
+  width: 375px;
+  height: 375px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.krug {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.aaa {
+  border: 40px solid white;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+.karandash {
+  width: 60px;
+  height: 500px;
+  /* background-color: wheat; */
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.to {
+  width: 100%;
+  height: 20%;
+  background: rgb(128, 100, 49);
+  background: linear-gradient(
+    73deg,
+    rgba(128, 100, 49, 1) 51%,
+    rgba(255, 212, 134, 1) 94%
+  );
+  clip-path: polygon(49% 0, 0 100%, 100% 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.grif {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    73deg,
+    rgba(0, 0, 0, 1) 48%,
+    rgba(110, 110, 110, 1) 56%
+  );
+  width: 100%;
+  height: 40%;
+}
+.bo {
+  width: 100%;
+  height: 80%;
+  background: rgb(128, 100, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 100, 49, 1) 87%,
+    rgba(200, 160, 86, 1) 100%
+  );
+
+  position: relative;
+}
+.par1 {
+  width: 20px;
+  height: 100%;
+  background-color: rgb(170, 111, 0);
+  border-radius: 30px 30px 0 0;
+  position: absolute;
+  box-shadow: inset -2px 0 5px 0 rgb(191, 151, 78);
+  z-index: 0;
+}
+.par2 {
+  width: 20px;
+  height: 100%;
+  background-color: rgb(196, 127, 0);
+  border-radius: 30px 30px 0 0;
+  position: absolute;
+  left: 20px;
+  box-shadow: inset -2px 0 5px 0 rgb(228, 182, 97),
+    inset 2px 0 5px 0 rgb(191, 151, 78);
+
+  z-index: 1;
+}
+.par3 {
+  width: 20px;
+  height: 100%;
+  background-color: orange;
+  border-radius: 30px 30px 0 0;
+  position: absolute;
+  right: 0;
+  box-shadow: inset 2px 0 5px 0 rgb(235, 192, 113);
+  z-index: 2;
+}
