@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(51, 35, 5);
+}
+form{
+    /* height: 300px; */
+    width: 95%;
+    margin: auto;
+    background: rgb(78,56,17);
+    background: linear-gradient(0deg, rgba(78,56,17,1) 5%, rgba(128,100,49,1) 52%, rgba(153,111,29,1) 100%);
+}
+.t1{
+    display: flex;
+}
+.main{
+    margin-right: 20px;
+}
+.ta{
+    width: 400px;
+    height: 60px;
+}
+.res{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+fieldset {
+    margin-left: 5px;
+}

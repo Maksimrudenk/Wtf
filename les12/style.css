@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(209, 243, 250);
+    
+}
+.main{
+    width: 800px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+.inmain{
+    height: 100%;
+}
+.left {
+    width: 55%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sn{
+    display: flex;
+    justify-content: space-around;
+    width: 300px ;
+}
+.insn{
+    width: 50px;
+    height: 50px ;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 55%;
+    margin-bottom: 60px;
+}
+.tex{
+    width: 300px ;
+    height: 45px ;
+    border: none;
+}
+.ta {
+    width: 300px ;
+    height: 85px ;
+}
+.b1 {
+    width: 140px;
+    height: 40px;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.b1:active {
+    border-radius: 20px;
+}
+.right{
+    width: 45%;
+    background-color: rgb(64, 177, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inright {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.b2 {
+    background-color: rgb(64, 177, 156);
+    width: 140px;
+    height: 40px;
+    border-radius: 18px;  
+}

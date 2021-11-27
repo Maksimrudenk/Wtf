@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="" name="forma">
+        <fieldset class="f1">
+            <legend>Main info</legend>
+            <div class="t1">
+                <div class="main">
+                    <label for="">name</label>
+                    <input type="text" placeholder="your name">
+                </div>
+                <div class="main">
+                    <label for="">surname</label>
+                    <input type="text" placeholder="your surname">
+                </div>
+                <div class="main">
+                    <label for="">age</label>
+                    <input type="number" min="1" max="99" step="1" value="1">
+                </div>
+                <div class="main">
+                    <label for="">tel</label>
+                    <input type="text" value="+380">
+                </div>
+                <div class="main">
+                    <label for="">city</label>
+                    <select name="" id="">
+                        <option value="">kharkiv</option>
+                        <option value="">Kiev</option>
+                        <option value="">Odesa</option>
+                    </select>
+                </div>
+                <div class="main">
+                    <label for="">login</label>
+                    <input type="text" placeholder="emaill">
+                </div>
+                <div class="main">
+                    <label for="">password</label>
+                    <input type="text" placeholder="password">
+                </div>
+            </div>
+            <div class="m1">
+                <label for="">about you</label>
+                <input type="textarea" class="ta" placeholder="max 500 simb" maxlength="500">
+            </div>
+            <div class="b1">
+                <label for="">photo:</label>
+                <input type="file">
+            </div>
+        </fieldset>
+        <fieldset class="f2">
+            <legend>gender</legend>
+            <input type="radio" value="male" name="gen">
+            <label for="">male</label>
+            <input type="radio" value="female" name="gen">
+            <label for="">female</label>
+        </fieldset>
+        <fieldset class="f3">
+            <legend>hobbies</legend>
+            <input type="checkbox"> <label for="">play</label>
+            <input type="checkbox"> <label for="">ride</label>
+            <input type="checkbox"> <label for="">draw</label>
+            <input type="checkbox"> <label for="">listen</label>
+            <input type="checkbox"> <label for="">walk</label>
+        </fieldset>
+        <input type="reset" value="reset" class="res">
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
